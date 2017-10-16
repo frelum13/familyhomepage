@@ -1,0 +1,19 @@
+{
+  "name": "familyhomepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frelum13/familyhomepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frelum13/familyhomepage/issues"
+  },
+  "homepage": "https://github.com/frelum13/familyhomepage#readme"
+}

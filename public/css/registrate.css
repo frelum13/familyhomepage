@@ -1,0 +1,19 @@
+.registrate{
+    color: red;
+    font-size: initial;
+    line-height: 0;
+}
+
+#login{
+    text-align: center;
+}
+
+#abfrage{
+    color: red; 
+    visibility: hidden;
+}
+
+#abfrage2{
+    color: green;
+    visibility: hidden;
+}

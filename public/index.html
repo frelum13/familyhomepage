@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Fantix</title>
+        <style>
+        img {
+            width:100%;
+        }
+        </style>
+
+        <link rel="icon" href="picture/Icon.png" type="image/PNG">
+        <link rel="stylesheet" href="/css/main.css">
+        <img src="picture/Unbenannt.png" alt="Titel Picture"  >
+        <script src="/nodejs/login.js"></script>
+    
+    </head>
+        <body>
+            <ul>
+            <li class = "current"><a href="index.html">Home</a></li>
+            <li><a href="spielmodi.html">Spielmodi</a></li>
+            <li><a href="#contact">Forum</a></li>
+            <li id= "builder" style="float: center; visibility: hidden;"><a href="#contact">Builder</a></li>
+            <li id= "builder" style="float: right; visibility: hidden;"><a class="active" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        
+            <div class = "sideright">
+                <h2>
+                    Login
+                </h2>
+                <p id = "errors" style =" color: red; font-weight: bold;"></p>
+                <label>Benutzer<input type="text" id="tb_playername" value="" height="35" width="265"  style="width:200px; height:35px; font-family:Arial;font-size:16pt;"></label>
+                <p></p>
+                <label>
+                    Passwort
+                    <input type="password" id="tb_passwort" value="" style="width:200px; height:35px; font-family:Arial;font-size:16pt;"> 
+                    <input type="button" id="alter" value="alter" onClick="ChangeType();" style="height: 40px; font-family:Arial;  background-color: Transparent; border: none;"> 
+                </label>
+                <p></p>
+                <input type="checkbox" id="alter" name="alter" style = "line-height: 0;">
+
+                <p style = "text-align: center; line-height: 0;"><a href="registrate.html">Registrate</a></p>
+
+                <p></p>
+                <input type="button" name="btn3" value="Login" height="35" width="265" style="width:265px; height:35px; font-family:Arial;font-size:16pt; background-color: red; border: none;" onClick="text_kick();">
+            </div>
+        </body>
+</html>
+

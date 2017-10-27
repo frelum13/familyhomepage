@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .registrate{
     color: red;
     font-size: initial;
@@ -6,14 +10,13 @@
 
 #login{
     text-align: center;
+    line-height: 0;
 }
 
 #abfrage{
-    color: red; 
     visibility: hidden;
 }
 
-#abfrage2{
-    color: green;
-    visibility: hidden;
+#titel{
+    width: 100%
 }

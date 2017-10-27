@@ -9,19 +9,21 @@
         }
         </style>
 
-        <link rel="icon" href="picture/Icon.png" type="image/PNG">
+        <link rel="icon" href="~/home/lukas/Dokumente/familyhomepage/Icon.png" type="image/PNG">
         <link rel="stylesheet" href="/css/main.css">
         <img src="picture/Unbenannt.png" alt="Titel Picture"  >
+        <form action="/php/mysqlconn.php"></form>
         <script src="/nodejs/login.js"></script>
+        <script src="php.js"></script>
     
     </head>
         <body>
             <ul>
-            <li class = "current"><a href="index.html">Home</a></li>
-            <li><a href="spielmodi.html">Spielmodi</a></li>
-            <li><a href="#contact">Forum</a></li>
-            <li id= "builder" style="float: center; visibility: hidden;"><a href="#contact">Builder</a></li>
-            <li id= "builder" style="float: right; visibility: hidden;"><a class="active" href="kontakt.html">Kontakt</a></li>
+                <li class = "current"><a href="index.html">Home</a></li>
+                <li><a href="spielmodi.html">Spielmodi</a></li>
+                <li><a href="/php/mysqlconn.php">Forum</a></li>
+                <li id= "builder" style="float: center; visibility: hidden;"><a href="#contact">Builder</a></li>
+                <li id= "kontakt" style="float: right; visibility: hidden;"><a class="active" href="kontakt.html">Kontakt</a></li>
             </ul>
         
             <div class = "sideright">
@@ -37,13 +39,14 @@
                     <input type="button" id="alter" value="alter" onClick="ChangeType();" style="height: 40px; font-family:Arial;  background-color: Transparent; border: none;"> 
                 </label>
                 <p></p>
-                <input type="checkbox" id="alter" name="alter" style = "line-height: 0;">
-
+                <label><input type="checkbox" id="alter" name="alter" style = "line-height: 0;"> Login speichern</label>
                 <p style = "text-align: center; line-height: 0;"><a href="registrate.html">Registrate</a></p>
 
                 <p></p>
-                <input type="button" name="btn3" value="Login" height="35" width="265" style="width:265px; height:35px; font-family:Arial;font-size:16pt; background-color: red; border: none;" onClick="text_kick();">
+                <input type="button" name="btn3" value="Login" height="35" width="265" style="width:265px; height:35px; font-family:Arial;font-size:16pt; background-color: red; border: none;" onClick="myfunktion();">
+                <input type="button" name="btn3" value="Login" height="35" width="265" style="width:265px; height:35px; font-family:Arial;font-size:16pt; background-color: red; border: none;" onClick="callPHPScript();">
             </div>
+
         </body>
 </html>
 

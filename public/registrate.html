@@ -3,23 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Fantix</title>
-        <style>
-        img {
-            width:100%;
-        }
-        </style>
-
         <link rel="icon" href="picture/Icon.png" type="image/PNG">
-        <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/registrate.css">
         <script src="/nodejs/registrate.js"> </script>
-        <img src="picture/Unbenannt.png" alt="Titel Picture">
+        <img id="titel" src="picture/Unbenannt.png" alt="Titel Picture">
     
     </head>
         <body>
             <h1 style = "text-align: center; color: red;">Registrate</h1>
+            <label id = "login"><h6 class = "registrate">Vorname   <input type = "text" onclick="myfunction();"></label> </h6>
+            <label id = "login"><h6 class = "registrate">Nachname   <input type = "text" onclick="myfunction();"></label> </h6>
             <label id = "login"><h6 class = "registrate">Username   <input type = "text" onclick="myfunction();"></label> </h6>
-            <label id = "login"><h6 class = "registrate" id = "password">Passwort   <input type = "text"></label> </h6>
-            <label id = "login"><h6 class = "registrate" id = "passwordwd">Passwort wiederholen   <input type = "text"></label> <h6 id = "abfrage1"> false </h6> <h6 id = "abfrage2"> false </h6> </h6>
+            <label id = "login"><h6 class = "registrate" >Passwort<input id = "password"type = "text"></label> </h6>
+            <label id = "login"><h6 class = "registrate" >Passwort wiederholen   <input id = "passwordwd" type = "text"> <img id="abfrage" src="picture/x.png" height="20" width="20" alt="x"></label>
+            <label id = "login"><h6 class = "registrate">Email   <input type = "text" onclick="myfunction();"></label> </h6>
+            <label id = "login"><h6 class = "registrate">Minecraft name   <input type = "text" onclick="myfunction();"></label> </h6>
+            <label id = "login"><h6 class = "registrate"> <input type = "button" value="Registrate" onclick="myfunction();"></label> </h6>
         </body>
 </html>

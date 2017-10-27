@@ -14,6 +14,10 @@ function text_kick(){
   }
   
   document.getElementById("builder").style.visibility = "visible";
+  document.getElementById("kontakt").style.visibility = "visible";
+  document.getElementById("sideright").style.visibility = "hidden";
+  myfunction();
+
 }
 function ChangeType() {
     document.getElementById("tb_passwort").type = "text";

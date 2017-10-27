@@ -39,6 +39,7 @@ body{
     border-radius: 5px;
     font-size: 105%;
     width: 260px;
+    visibility: visible;
 }
 #anzahl{
     background-color: white;
